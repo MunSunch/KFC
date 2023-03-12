@@ -162,3 +162,48 @@ ul {
 .footer {
     background-color: #f7f6f5;
 }
+
+
+
+.vacancy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.employee, .manager, .zam_director, .director {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+
+    border-radius: 5px;
+    background-color: silver;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform-origin: 50% 50%;
+    transition-duration: 2s;
+}
+
+.vacancy div:hover {
+    transform: rotateY(180deg);
+    color: transparent;
+}
+
+.manager {
+    background-color: yellow;
+}
+
+.zam_director {
+    background-color: orange;
+}
+
+.director {
+    background-color: black;
+}
